@@ -15,8 +15,6 @@ public class AccountMain {
 		catch(Exception e)		//the exception throws by the try block catch block catch that exception
 		{
 			System.out.println(e);
-		}
-		 
+		} 
 	}
-
 }

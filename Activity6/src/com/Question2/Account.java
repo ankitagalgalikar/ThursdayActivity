@@ -1,12 +1,9 @@
 //Author:Ankita Galgalikar
 //creating a account class where we can deposit and withdraw money using userdefined exception
 package com.Question2;
-
 import java.util.Scanner;
-
 class InSufficientBalancedException extends Exception		//making a userdefined exception
 {
-
 	public InSufficientBalancedException(String string)
 	
 	{
