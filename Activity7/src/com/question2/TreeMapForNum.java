@@ -24,12 +24,12 @@ public class TreeMapForNum {
 		System.out.println("-----------------------------------------");
 		
 		System.out.println("To  search for a specific key :"+map.containsKey(7));			//searching a key in a treeMap
-		System.out.println("To search a specific value in key: "+map.containsValue(9));		//searching a key in a treeMap
+		System.out.println("To search a specific value in key: "+map.containsValue(9));		//searching a value in a treeMap
 		System.out.println("-----------------------------------------");
 		System.out.println("To find greatest key "+map.higherKey(19));			//to get a greatest key
 		
 		System.out.println(map.pollFirstEntry());			//to get and remove least key
-		System.out.println(map.pollLastEntry());			//to get and remove least key
+		System.out.println(map.pollLastEntry());			//to get and remove last key
 		System.out.println(map);
 		
 				
